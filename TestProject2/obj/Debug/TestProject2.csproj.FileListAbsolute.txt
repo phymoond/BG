@@ -1,0 +1,8 @@
+e:\Projects\BowlingGame\TestProject2\obj\Debug\ResolveAssemblyReference.cache
+e:\Projects\BowlingGame\TestProject2\bin\Debug\TestProject2.dll
+e:\Projects\BowlingGame\TestProject2\bin\Debug\TestProject2.pdb
+e:\Projects\BowlingGame\TestProject2\bin\Debug\BowlingGame.exe
+e:\Projects\BowlingGame\TestProject2\bin\Debug\nunit.framework.dll
+e:\Projects\BowlingGame\TestProject2\bin\Debug\BowlingGame.pdb
+e:\Projects\BowlingGame\TestProject2\obj\Debug\TestProject2.dll
+e:\Projects\BowlingGame\TestProject2\obj\Debug\TestProject2.pdb

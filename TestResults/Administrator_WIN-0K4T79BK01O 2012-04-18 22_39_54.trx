@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="dd4b24be-ed7b-46c2-bc66-137e129576b5" name="Administrator@WIN-0K4T79BK01O 2012-04-18 22:39:54" runUser="WIN-0K4T79BK01O\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="f872862b-a01e-49d3-a1c2-78a2634ead2f">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_WIN-0K4T79BK01O 2012-04-18 22_39_54">
+      <DeploymentItem filename="e:\Projects\BowlingGame\BowlingGame\bin\Debug\BowlingGame.exe" />
+      <DeploymentItem filename="e:\Projects\BowlingGame\TestProject2\nunit.framework.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-18T22:39:54.1712236+08:00" queuing="2012-04-18T22:39:55.1432792+08:00" start="2012-04-18T22:39:55.3102887+08:00" finish="2012-04-18T22:39:56.6213637+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="9" executed="9" passed="9" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestEndOfArray" storage="e:\projects\bowlinggame\testproject2\bin\debug\testproject2.dll" id="59df9494-dfff-595e-9c5f-baa6b14a2997">
+      <Execution id="055f31e8-0cd3-4f25-a572-5c5498d7b423" />
+      <TestMethod codeBase="e:/Projects/BowlingGame/TestProject2/bin/Debug/TestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameTest, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestEndOfArray" />
+    </UnitTest>
+    <UnitTest name="TestHeartBreak" storage="e:\projects\bowlinggame\testproject2\bin\debug\testproject2.dll" id="b6a3027d-cfe4-9ad8-60f0-ae70202bb49b">
+      <Execution id="0ece1958-7baf-4c0d-81bb-210ea62dd101" />
+      <TestMethod codeBase="e:/Projects/BowlingGame/TestProject2/bin/Debug/TestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameTest, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestHeartBreak" />
+    </UnitTest>
+    <UnitTest name="TestSimpleFrameAfterSpare" storage="e:\projects\bowlinggame\testproject2\bin\debug\testproject2.dll" id="04135ee3-a2e0-fa22-42de-0ac57e200f10">
+      <Execution id="18abcf6c-9e20-4dce-9182-90ba2ca212f2" />
+      <TestMethod codeBase="e:/Projects/BowlingGame/TestProject2/bin/Debug/TestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameTest, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSimpleFrameAfterSpare" />
+    </UnitTest>
+    <UnitTest name="TestFourThrowsNoMark" storage="e:\projects\bowlinggame\testproject2\bin\debug\testproject2.dll" id="0a8f0ad1-b7ef-eac7-cc8b-54c6ff61d764">
+      <Execution id="ea8de6cf-8194-4488-bb3d-82938dc1dc88" />
+      <TestMethod codeBase="e:/Projects/BowlingGame/TestProject2/bin/Debug/TestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameTest, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestFourThrowsNoMark" />
+    </UnitTest>
+    <UnitTest name="TestTwoThrowsNoMark" storage="e:\projects\bowlinggame\testproject2\bin\debug\testproject2.dll" id="6ab79bfc-5949-4c0b-ffce-681d0997ffeb">
+      <Execution id="147680dd-f6a3-461f-bf70-4fb305460d78" />
+      <TestMethod codeBase="e:/Projects/BowlingGame/TestProject2/bin/Debug/TestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameTest, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTwoThrowsNoMark" />
+    </UnitTest>
+    <UnitTest name="TestTenthFrameSpare" storage="e:\projects\bowlinggame\testproject2\bin\debug\testproject2.dll" id="f5de30d3-89de-aa9b-2948-f601e82fa4ef">
+      <Execution id="f07d66ad-2d6c-4a48-bda0-22842b52fcb6" />
+      <TestMethod codeBase="e:/Projects/BowlingGame/TestProject2/bin/Debug/TestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameTest, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTenthFrameSpare" />
+    </UnitTest>
+    <UnitTest name="TestSampleGame" storage="e:\projects\bowlinggame\testproject2\bin\debug\testproject2.dll" id="38ceed33-46af-960e-5121-f27adf2951c6">
+      <Execution id="5094b20b-ef6f-4569-9b9f-f8c614c6146a" />
+      <TestMethod codeBase="e:/Projects/BowlingGame/TestProject2/bin/Debug/TestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameTest, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSampleGame" />
+    </UnitTest>
+    <UnitTest name="TestSimpleSpare" storage="e:\projects\bowlinggame\testproject2\bin\debug\testproject2.dll" id="b722181e-230d-cb37-7618-63bd7e032d6c">
+      <Execution id="fd1888a1-4238-4c86-b0a9-7f90b0ae08a9" />
+      <TestMethod codeBase="e:/Projects/BowlingGame/TestProject2/bin/Debug/TestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameTest, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSimpleSpare" />
+    </UnitTest>
+    <UnitTest name="TestSimpleStrike" storage="e:\projects\bowlinggame\testproject2\bin\debug\testproject2.dll" id="58af7c17-bd28-10f5-15b6-90025c5cd184">
+      <Execution id="e4066b42-7b7f-4221-aac4-9486a367fa22" />
+      <TestMethod codeBase="e:/Projects/BowlingGame/TestProject2/bin/Debug/TestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameTest, TestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSimpleStrike" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="6ab79bfc-5949-4c0b-ffce-681d0997ffeb" executionId="147680dd-f6a3-461f-bf70-4fb305460d78" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0a8f0ad1-b7ef-eac7-cc8b-54c6ff61d764" executionId="ea8de6cf-8194-4488-bb3d-82938dc1dc88" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b722181e-230d-cb37-7618-63bd7e032d6c" executionId="fd1888a1-4238-4c86-b0a9-7f90b0ae08a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="04135ee3-a2e0-fa22-42de-0ac57e200f10" executionId="18abcf6c-9e20-4dce-9182-90ba2ca212f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="58af7c17-bd28-10f5-15b6-90025c5cd184" executionId="e4066b42-7b7f-4221-aac4-9486a367fa22" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="59df9494-dfff-595e-9c5f-baa6b14a2997" executionId="055f31e8-0cd3-4f25-a572-5c5498d7b423" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b6a3027d-cfe4-9ad8-60f0-ae70202bb49b" executionId="0ece1958-7baf-4c0d-81bb-210ea62dd101" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5de30d3-89de-aa9b-2948-f601e82fa4ef" executionId="f07d66ad-2d6c-4a48-bda0-22842b52fcb6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="38ceed33-46af-960e-5121-f27adf2951c6" executionId="5094b20b-ef6f-4569-9b9f-f8c614c6146a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="147680dd-f6a3-461f-bf70-4fb305460d78" testId="6ab79bfc-5949-4c0b-ffce-681d0997ffeb" testName="TestTwoThrowsNoMark" computerName="WIN-0K4T79BK01O" duration="00:00:00.0336155" startTime="2012-04-18T22:39:55.3672920+08:00" endTime="2012-04-18T22:39:55.9633261+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="147680dd-f6a3-461f-bf70-4fb305460d78">
+    </UnitTestResult>
+    <UnitTestResult executionId="ea8de6cf-8194-4488-bb3d-82938dc1dc88" testId="0a8f0ad1-b7ef-eac7-cc8b-54c6ff61d764" testName="TestFourThrowsNoMark" computerName="WIN-0K4T79BK01O" duration="00:00:00.0003578" startTime="2012-04-18T22:39:55.9793270+08:00" endTime="2012-04-18T22:39:56.0003282+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea8de6cf-8194-4488-bb3d-82938dc1dc88">
+    </UnitTestResult>
+    <UnitTestResult executionId="fd1888a1-4238-4c86-b0a9-7f90b0ae08a9" testId="b722181e-230d-cb37-7618-63bd7e032d6c" testName="TestSimpleSpare" computerName="WIN-0K4T79BK01O" duration="00:00:00.0004048" startTime="2012-04-18T22:39:56.0123289+08:00" endTime="2012-04-18T22:39:56.0263297+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fd1888a1-4238-4c86-b0a9-7f90b0ae08a9">
+    </UnitTestResult>
+    <UnitTestResult executionId="18abcf6c-9e20-4dce-9182-90ba2ca212f2" testId="04135ee3-a2e0-fa22-42de-0ac57e200f10" testName="TestSimpleFrameAfterSpare" computerName="WIN-0K4T79BK01O" duration="00:00:00.0003603" startTime="2012-04-18T22:39:56.0453307+08:00" endTime="2012-04-18T22:39:56.0653319+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18abcf6c-9e20-4dce-9182-90ba2ca212f2">
+    </UnitTestResult>
+    <UnitTestResult executionId="e4066b42-7b7f-4221-aac4-9486a367fa22" testId="58af7c17-bd28-10f5-15b6-90025c5cd184" testName="TestSimpleStrike" computerName="WIN-0K4T79BK01O" duration="00:00:00.0004194" startTime="2012-04-18T22:39:56.0803328+08:00" endTime="2012-04-18T22:39:56.0983338+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e4066b42-7b7f-4221-aac4-9486a367fa22">
+    </UnitTestResult>
+    <UnitTestResult executionId="055f31e8-0cd3-4f25-a572-5c5498d7b423" testId="59df9494-dfff-595e-9c5f-baa6b14a2997" testName="TestEndOfArray" computerName="WIN-0K4T79BK01O" duration="00:00:00.0029597" startTime="2012-04-18T22:39:56.1063342+08:00" endTime="2012-04-18T22:39:56.1263354+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="055f31e8-0cd3-4f25-a572-5c5498d7b423">
+    </UnitTestResult>
+    <UnitTestResult executionId="0ece1958-7baf-4c0d-81bb-210ea62dd101" testId="b6a3027d-cfe4-9ad8-60f0-ae70202bb49b" testName="TestHeartBreak" computerName="WIN-0K4T79BK01O" duration="00:00:00.0002996" startTime="2012-04-18T22:39:56.1443364+08:00" endTime="2012-04-18T22:39:56.1663377+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ece1958-7baf-4c0d-81bb-210ea62dd101">
+    </UnitTestResult>
+    <UnitTestResult executionId="f07d66ad-2d6c-4a48-bda0-22842b52fcb6" testId="f5de30d3-89de-aa9b-2948-f601e82fa4ef" testName="TestTenthFrameSpare" computerName="WIN-0K4T79BK01O" duration="00:00:00.0003148" startTime="2012-04-18T22:39:56.1783384+08:00" endTime="2012-04-18T22:39:56.2003396+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f07d66ad-2d6c-4a48-bda0-22842b52fcb6">
+    </UnitTestResult>
+    <UnitTestResult executionId="5094b20b-ef6f-4569-9b9f-f8c614c6146a" testId="38ceed33-46af-960e-5121-f27adf2951c6" testName="TestSampleGame" computerName="WIN-0K4T79BK01O" duration="00:00:00.0005632" startTime="2012-04-18T22:39:56.2113402+08:00" endTime="2012-04-18T22:39:56.2343416+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5094b20b-ef6f-4569-9b9f-f8c614c6146a">
+    </UnitTestResult>
+  </Results>
+</TestRun>
